@@ -1,0 +1,26 @@
+# Keycloak runtime data / backups
+keycloak-data/
+keycloak-backup/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
